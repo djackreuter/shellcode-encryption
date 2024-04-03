@@ -4,7 +4,6 @@ import argparse
 import sys
 import uuid
 from Crypto.Cipher import ARC4
-from Crypto.Hash import SHA256, HMAC
 from Crypto.Random import get_random_bytes
 
 
