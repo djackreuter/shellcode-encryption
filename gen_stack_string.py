@@ -10,7 +10,7 @@ def gen_stack_string(data):
     for i in range(len(data)):
         stack_string_contents.append(f"'{data[i]}', ")
 
-    stack_string_contents.append("'\\0' }")
+    stack_string_contents.append("'\\0' };")
     print(''.join(stack_string_contents))
 
 if __name__ == '__main__':
