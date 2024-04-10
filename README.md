@@ -1,6 +1,6 @@
 # shellcode-encryption
 
-Python scripts to encrypt shellcode.
+Python scripts to encrypt shellcode and obfuscate strings.
 
 ## AES
 ```
@@ -37,3 +37,12 @@ options:
   -s S        String to XOR
   -w W        File to write encrypted binary payload to
 ```
+
+## Generate Stack String
+```
+usage: gen_stack_string.py [-h] [-s S]
+
+options:
+  -h, --help  show this help message and exit
+  -s S        Input string
+  ```
