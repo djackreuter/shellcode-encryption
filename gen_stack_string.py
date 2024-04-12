@@ -2,7 +2,6 @@
 
 import argparse
 import sys
-from Crypto.Random import get_random_bytes
 
 def gen_stack_string(data):
     data = data.strip()
