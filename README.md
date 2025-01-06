@@ -38,6 +38,19 @@ options:
   -w W        File to write encrypted binary payload to
 ```
 
+## Better XOR - Skips null bytes to prevent leaking key. Prints array of indices to use on the decryption side.
+```
+python.exe .\better_xor.py
+usage: xor.py [-h] [-k K] [-f F] [-s S] [-w W]
+
+options:
+  -h, --help  show this help message and exit
+  -k K        XOR key. Will create random 8 character key if ommited
+  -f F        bin file containing payload
+  -s S        String to XOR
+  -w W        File to write encrypted binary payload to
+```
+
 ## Generate Stack String
 ```
 usage: gen_stack_string.py [-h] [-s S]
