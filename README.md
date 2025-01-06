@@ -38,7 +38,8 @@ options:
   -w W        File to write encrypted binary payload to
 ```
 
-## Better XOR - Skips null bytes to prevent leaking key. Prints array of indices to use on the decryption side.
+## Better XOR 
+Skips null bytes to prevent leaking key. Prints array of indices to use on the decryption side.
 ```
 python.exe .\better_xor.py
 usage: xor.py [-h] [-k K] [-f F] [-s S] [-w W]
